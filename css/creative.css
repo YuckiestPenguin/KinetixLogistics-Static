@@ -473,6 +473,18 @@ body {
     background-size: cover;
 }
 
+#parallax-household-goods-home-twilight {
+    /* The image used */
+    background-image: url("../img/logistics/home-twilight-full.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .parallax-container-ship {
     /* The image used */
     background-image: url("../img/logistics/container-ship-full.jpg");
@@ -500,6 +512,30 @@ body {
 #parallax-military-cargo-plane {
     /* The image used */
     background-image: url("../img/logistics/military-cargo-plane-full.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-floorplan-drawings-full {
+    /* The image used */
+    background-image: url("../img/logistics/floorplan-drawings-full.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-australia {
+    /* The image used */
+    background-image: url("../img/logistics/australia-full.jpeg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
