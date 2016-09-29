@@ -10,8 +10,13 @@ html, body {
 }
 
 body {
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
 }
+
+/*body {
+  font-family: 'Raleway', sans-serif;
+}*/
 
 hr {
     border-color: #F05F40;
@@ -34,9 +39,15 @@ a:hover, a:focus {
     color: #eb3812;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
 }
+
+/*Trying it with the Google Raleway Font*/
+/*h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+}*/
 
 p {
     font-size: 16px;
@@ -72,7 +83,7 @@ aside {
 .navbar-default {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
@@ -80,8 +91,8 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     color: #F05F40;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 700;
+    font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -90,7 +101,7 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-toggle {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     color: #222222;
     text-transform: uppercase;
@@ -98,7 +109,7 @@ aside {
 
 .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 13px;
     color: #222222;
 }
@@ -119,7 +130,7 @@ aside {
 @media (min-width: 768px) {
     .navbar-default {
         background-color: transparent;
-        border-color: rgba(255, 255, 255, 0.3);
+        border-color: rgba(255, 255, 255, 0); /* If you change the opacity, you see a line between the navbar and the header photo.*/
     }
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, 0.7);
@@ -250,7 +261,7 @@ header .header-content .header-content-inner p {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(38, 45, 56, 0.9);
+    background: rgba(0, 47, 91, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -270,13 +281,13 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
     padding: 0 15px;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -373,10 +384,10 @@ header .header-content .header-content-inner p {
 }
 
 .btn {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
     border: none;
     border-radius: 300px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -543,4 +554,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#project-logistics-color {
+  background: rgba(0, 47, 91, 0.9)
+}
+
+.city-name {
+  font-weight: 700;
 }
