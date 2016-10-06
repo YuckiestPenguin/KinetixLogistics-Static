@@ -564,3 +564,35 @@ body {
 .city-name {
   font-weight: 700;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width
+: 1024px) and   (orientation : landscape) and ( -webkit-min-device-
+pixel-ratio: 2){
+  .full-image {
+      max-height: 100%;
+      max-width: 100%;
+    }}
+
+@media only screen and (min-device-width : 1536px) and (max-device-width
+: 2048px) and   (orientation : landscape) and ( -webkit-min-device-
+pixel-ratio: 2){
+  .full-image {
+      max-height: 100%;
+      max-width: 100%;
+    }}
+
+    @media only screen and (min-device-width : 1024px) and (max-device-width
+    : 768px) and   (orientation : landscape) and ( -webkit-min-device-
+    pixel-ratio: 2){
+      .full-image {
+          max-height: 100%;
+          max-width: 100%;
+        }}
+
+    @media only screen and (min-device-width : 2048px) and (max-device-width
+    : 1536px) and   (orientation : landscape) and ( -webkit-min-device-
+    pixel-ratio: 2){
+      .full-image {
+          max-height: 100%;
+          max-width: 100%;
+        }}
