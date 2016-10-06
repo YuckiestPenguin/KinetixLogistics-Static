@@ -579,21 +579,21 @@ body {
   }
 }
 
-@media (min-width: 1200x) {
+@media (min-width: 1200px) {
   .full-image {
     max-height: 100%;
     max-width: 100%;
   }
 }
 
-@media (min-width: 2500x) {
+@media (min-width: 2500px) {
   .full-image {
     max-height: 100%;
     max-width: 100%;
   }
 }
 
-@media (min-width: 5000x) {
+@media (min-width: 5000px) {
   .full-image {
     max-height: 100%;
     max-width: 100%;
