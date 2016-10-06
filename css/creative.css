@@ -446,7 +446,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .parallax-family-moving {
@@ -563,4 +563,25 @@ body {
 
 .city-name {
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .full-image {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 998px) {
+  .full-image {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200x) {
+  .full-image {
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
