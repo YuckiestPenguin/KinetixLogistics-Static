@@ -564,17 +564,3 @@ body {
 .city-name {
   font-weight: 700;
 }
-
-@media (min-width: 768px) {
-  .full-image {
-    max-height: 100%;
-    max-width: 100%;
-  }
-}
-
-@media (min-width: 998px) {
-  .full-image {
-    max-height: 100%;
-    max-width: 100%;
-  }
-}
