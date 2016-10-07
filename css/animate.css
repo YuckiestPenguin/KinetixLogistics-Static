@@ -1266,7 +1266,14 @@
 .fadeInDelay {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-  animation-delay: 2s;
+  animation-delay: 1s;
+
+}
+
+.fadeInDelay2 {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-delay: 1.5s;
 
 }
 
