@@ -1215,6 +1215,7 @@
   animation-name: bounceOutUp;
 }
 
+/*regular*/
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -1238,9 +1239,52 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+/*delayed*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInDelay {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-delay: 2s;
+
 }
 
 @-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInDownDelay {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -1271,6 +1315,13 @@
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+
+}
+
+.fadeInDownSlow {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: : 1s;
 }
 
 @-webkit-keyframes fadeInDownBig {

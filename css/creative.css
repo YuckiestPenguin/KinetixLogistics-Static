@@ -77,6 +77,15 @@ section {
     padding: 100px 0;
 }
 
+.no-padding-top {
+    padding-top: 0px;
+}
+
+/*section .no-padding-top {
+  padding-top:0px;
+
+}*/
+
 aside {
     padding: 50px 0;
 }
@@ -169,8 +178,21 @@ aside {
     }
 }
 
+.aboutHeader {
+  background-image: url('../img/logistics/port-bokeh.jpg');
+  text-align: center;
+}
+
+.bg-overlay {
+  background: black;
+  opacity: 0.5;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+
+}
 header {
-    position: relative;
+    /*position: relative;
     width: 100%;
     min-height: auto;
     -webkit-background-size: cover;
@@ -180,13 +202,13 @@ header {
     background-position: center;
     background-image: url('../img/logistics/world-map-squares-full.png');
     text-align: center;
-    color: white;
+    color: white;*/
 }
 
 header .header-content {
     position: relative;
     text-align: center;
-    padding: 100px 15px 100px;
+    /*padding: 100px 15px 100px;*/
     width: 100%;
 }
 
@@ -516,7 +538,7 @@ body {
 
 #parallax-plane-minimalist {
     /* The image used */
-    background-image: url("../img/logistics/paddle-wheel.jpg");
+    background-image: url("../img/logistics/solar-panel.jpeg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -552,7 +574,7 @@ body {
 
 #parallax-australia {
     /* The image used */
-    background-image: url("../img/logistics/building-corner.jpg");
+    background-image: url("../img/logistics/windows.jpeg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
