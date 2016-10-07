@@ -14,6 +14,7 @@ body {
     font-weight: 300;
 }
 
+
 /*body {
   font-family: 'Raleway', sans-serif;
 }*/
@@ -44,7 +45,10 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 300;
 }
 
+
 /*Trying it with the Google Raleway Font*/
+
+
 /*h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 }*/
@@ -131,7 +135,8 @@ aside {
 @media (min-width: 768px) {
     .navbar-default {
         background-color: transparent;
-        border-color: rgba(255, 255, 255, 0); /* If you change the opacity, you see a line between the navbar and the header photo.*/
+        border-color: rgba(255, 255, 255, 0);
+        /* If you change the opacity, you see a line between the navbar and the header photo.*/
     }
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, 0.7);
@@ -558,46 +563,30 @@ body {
 }
 
 #project-logistics-color {
-  background: rgba(0, 47, 91, 0.9)
+    background: rgba(0, 47, 91, 0.9)
 }
 
 .city-name {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .full-image {
     max-height: 100%;
     max-width: 100%;
-  }
+}
 
-@media only screen and (min-device-width : 768px) and (max-device-width
-: 1024px) and   (orientation : landscape) and ( -webkit-min-device-
-pixel-ratio: 1.5){
-  .full-image {
-      max-height: 100%;
-      max-width: 100%;
-    }}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and ( -webkit-min-device- pixel-ratio: 2) {
+    .full-image
+}
 
-@media only screen and (min-device-width : 1536px) and (max-device-width
-: 2048px) and   (orientation : landscape) and ( -webkit-min-device-
-pixel-ratio: 1.5){
-  .full-image {
-      max-height: 100%;
-      max-width: 100%;
-    }}
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) and (orientation: landscape) and ( -webkit-min-device- pixel-ratio: 2) {
+    .full-image
+}
 
-    @media only screen and (min-device-width : 1024px) and (max-device-width
-    : 768px) and   (orientation : landscape) and ( -webkit-min-device-
-    pixel-ratio: 2){
-      .full-image {
-          max-height: 100%;
-          max-width: 100%;
-        }}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 768px) and (orientation: landscape) and ( -webkit-min-device- pixel-ratio: 2) {
+    .full-image
+}
 
-    @media only screen and (min-device-width : 2048px) and (max-device-width
-    : 1536px) and   (orientation : landscape) and ( -webkit-min-device-
-    pixel-ratio: 2){
-      .full-image {
-          max-height: 100%;
-          max-width: 100%;
-        }}
+@media only screen and (min-device-width: 2048px) and (max-device-width: 1536px) and (orientation: landscape) and ( -webkit-min-device- pixel-ratio: 2) {
+    .full-image
+}
