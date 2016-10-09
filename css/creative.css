@@ -251,9 +251,11 @@ header .header-content .header-content-inner p {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+        /*padding-top: 5%;*/
     }
     header .header-content .header-content-inner h1 {
         font-size: 50px;
+        /*padding-top: 2.5%;*/
     }
     header .header-content .header-content-inner p {
         font-size: 18px;
@@ -480,6 +482,12 @@ body {
     background-size: cover;
 }
 
+@media screen and (max-width: 769px) {
+    .parallax-containers {
+        display: none;
+    }
+}
+
 .parallax-family-moving {
     /* The image used */
     background-image: url("../img/logistics/rooftop.jpeg");
@@ -490,6 +498,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 769px) {
+    .parallax-family-moving {
+        display: none;
+    }
 }
 
 #parallax-supply-chain {
@@ -504,6 +518,12 @@ body {
     background-size: cover;
 }
 
+@media screen and (max-width: 769px) {
+    #parallax-supply-chain {
+        display: none;
+    }
+}
+
 #parallax-special-projects {
     /* The image used */
     background-image: url("../img/logistics/windmill.jpg");
@@ -514,6 +534,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 769px) {
+    #parallax-special-projects {
+        display: none;
+    }
 }
 
 #parallax-household-goods-home-twilight {
@@ -552,6 +578,12 @@ body {
     background-size: cover;
 }
 
+@media screen and (max-width: 769px) {
+    #parallax-plane-minimalist {
+        display: none;
+    }
+}
+
 #parallax-military-cargo-plane {
     /* The image used */
     background-image: url("../img/logistics/soldier.jpeg");
@@ -562,6 +594,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 769px) {
+    #parallax-military-cargo-plane {
+        display: none;
+    }
 }
 
 #parallax-floorplan-drawings-full {
