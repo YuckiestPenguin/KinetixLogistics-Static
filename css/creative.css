@@ -482,7 +482,7 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1024px) {
     .parallax-containers {
         display: none;
     }
