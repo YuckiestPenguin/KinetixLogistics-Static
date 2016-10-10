@@ -82,8 +82,9 @@ section {
 }
 
 .padding-top-40 {
-  padding-top: 40%;
+    padding-top: 40%;
 }
+
 
 /*section .no-padding-top {
   padding-top:0px;
@@ -182,19 +183,20 @@ aside {
     }
 }
 
+
 /*.aboutHeader {
   background-image: url('../img/logistics/port-bokeh.jpg');
   text-align: center;
 }*/
 
 .bg-overlay {
-  background: black;
-  opacity: 0.5;
-  position: absolute;
-  height: 100%;
-  text-align: center;
-
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    height: 100%;
+    text-align: center;
 }
+
 header {
     position: relative;
     width: 100%;
@@ -470,7 +472,7 @@ body {
     background-size: cover;
 }
 
-.parallax-containers {
+.parallax-project-logistics {
     /* The image used */
     background-image: url("../img/logistics/rusty-containers.jpeg");
     /* Set a specific height */
@@ -482,13 +484,27 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width: 1024px) {
-    .parallax-containers {
+@media screen and (max-width: 768px) {
+    .parallax-project-logistics {
         display: none;
     }
 }
 
-.parallax-family-moving {
+.project-logistics-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/rusty-containers.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .project-logistics-sub {
+        display: none;
+    }
+}
+
+.parallax-mobilizations {
     /* The image used */
     background-image: url("../img/logistics/rooftop.jpeg");
     /* Set a specific height */
@@ -500,13 +516,27 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width: 769px) {
-    .parallax-family-moving {
+@media screen and (max-width: 768px) {
+    .parallax-mobilizations {
         display: none;
     }
 }
 
-#parallax-supply-chain {
+.mobilizations-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/rooftop.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .mobilizations-sub {
+        display: none;
+    }
+}
+
+.parallax-supply-chain {
     /* The image used */
     background-image: url("../img/logistics/hot-air-balloon.jpeg");
     /* Set a specific height */
@@ -518,13 +548,27 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width: 769px) {
-    #parallax-supply-chain {
+@media screen and (max-width: 768px) {
+    .parallax-supply-chain {
         display: none;
     }
 }
 
-#parallax-special-projects {
+.supply-chain-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/hot-air-balloon.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .supply-chain-sub {
+        display: none;
+    }
+}
+
+.parallax-special-projects-1 {
     /* The image used */
     background-image: url("../img/logistics/windmill.jpg");
     /* Set a specific height */
@@ -536,13 +580,27 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width: 769px) {
-    #parallax-special-projects {
+@media screen and (max-width: 768px) {
+    .parallax-special-projects-1 {
         display: none;
     }
 }
 
-#parallax-household-goods-home-twilight {
+.special-projects-1-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/windmill.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .special-projects-1-sub {
+        display: none;
+    }
+}
+
+.parallax-household-goods-1 {
     /* The image used */
     background-image: url("../img/logistics/house.jpeg");
     /* Set a specific height */
@@ -552,6 +610,27 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-household-goods-1 {
+        display: none;
+    }
+}
+
+.household-goods-1-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/house.jpeg");
+    background-position: bottom;
+}
+
+@media screen and (min-width: 769px) {
+    .household-goods-1-sub {
+        display: none;
+    }
 }
 
 .parallax-container-ship {
@@ -566,7 +645,7 @@ body {
     background-size: cover;
 }
 
-#parallax-plane-minimalist {
+.parallax-special-projects-3 {
     /* The image used */
     background-image: url("../img/logistics/solar-panel.jpeg");
     /* Set a specific height */
@@ -578,13 +657,27 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width: 769px) {
-    #parallax-plane-minimalist {
+@media screen and (max-width: 768px) {
+    .parallax-special-projects-3 {
         display: none;
     }
 }
 
-#parallax-military-cargo-plane {
+.special-projects-3-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/solar-panel.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .special-projects-3-sub {
+        display: none;
+    }
+}
+
+.parallax-special-projects-2 {
     /* The image used */
     background-image: url("../img/logistics/soldier.jpeg");
     /* Set a specific height */
@@ -596,13 +689,27 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width: 769px) {
-    #parallax-military-cargo-plane {
+@media screen and (max-width: 768px) {
+    .parallax-special-projects-2 {
         display: none;
     }
 }
 
-#parallax-floorplan-drawings-full {
+.special-projects-2-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/soldier.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .special-projects-2-sub {
+        display: none;
+    }
+}
+
+.parallax-household-goods-2 {
     /* The image used */
     background-image: url("../img/logistics/vintage-car.jpg");
     /* Set a specific height */
@@ -614,7 +721,27 @@ body {
     background-size: cover;
 }
 
-#parallax-australia {
+@media screen and (max-width: 768px) {
+    .parallax-household-goods-2 {
+        display: none;
+    }
+}
+
+.household-goods-2-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/vintage-car.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .household-goods-2-sub {
+        display: none;
+    }
+}
+
+.parallax-household-goods-3 {
     /* The image used */
     background-image: url("../img/logistics/windows.jpeg");
     /* Set a specific height */
@@ -626,6 +753,26 @@ body {
     background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+    .parallax-household-goods-3 {
+        display: none;
+    }
+}
+
+.household-goods-3-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/windows.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .household-goods-3-sub {
+        display: none;
+    }
+}
+
 #project-logistics-color {
     background: rgba(0, 47, 91, 0.9)
 }
@@ -633,6 +780,14 @@ body {
 .city-name {
     font-weight: 700;
 }
+
+
+/*@media screen and (min-width: 767px) {
+    .static-image{
+        display: flex;
+    }
+}*/
+
 
 /*.full-image {
     max-height: 400px;
